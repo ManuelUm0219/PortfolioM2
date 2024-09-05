@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Portfolio</title>
+  </head>
+  <body class="dark"> 
+    <header class="header">
+      <div class="switches">
+         <div id="toggle-theme" class="toggle-theme">
+          <img id="toggle-icon" src="assets/icons/moon.svg" alt="icon theme" class="toggle-theme__icon">
+          <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
+         </div>
+      </div>
+      <div id="toggle-colors" class="colors">
+        <div data-color="hsl(214, 84%, 56%)" class="colors__item colors__item--blue"></div>
+
+        <div data-color="hsl(150, 84%, 56%)" class="colors__item colors__item--green"></div>
+
+        <div data-color="hsl(276, 84%, 56%)" class="colors__item colors__item--purple"></div>
+
+        <div data-color="hsl(46, 84%, 56%)" class="colors__item colors__item--orange"></div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="column column--left">
+        <!--PROFILE CARD-->
+        <article class="card card--profile">
+          <div class="card__image-container">
+           <img src="assets/images/profile.jpg" alt="" /> 
+          </div>
+          <div class="card__header">
+            <h2 class="card__title no-margin">Manuel Urrego</h2>
+            <p class="card__subtitle">Front end devoloper</p>
+          </div>
+          <div class="card__body">
+            <div class="card__link">
+              <i class="fas fa-envelope icon"></i>
+              <a href="mailto:urregomanuel11@gmail.com">
+                urregomanuel11@gmail.com </a>
+            </div>
+            <div class="card__link">
+              <i class="fas fa-phone-alt icon"></i>
+              <a href="tel:3007114361">
+                +57-3007114361 </a>
+            </div>
+            <p class="card__text">
+              I am a professional in International Business Administration who ventured into the world of programming in January 2024.
+              I am currently exploring different paths in software development to find the role I connect with the most.
+              My goal is to combine my skills in administration and communication with my passion for technology to lead innovative projects and dynamic teams.
+              I am always learning, always creating, and ready for the challenges ahead.
+              The future is now!
+            </p>
+          </div>
+        </article>
+        <article class="card card-experience">
+          <h2 class="card__title">Experiences</h2>
+          <div class="experience">
+            <img src="assets/images/logo1.png" alt="logo" class="experience__image">
+            <div class="experience__info">
+              <p class="experience__time">
+                Jan 2019 - Dec 2021
+              </p>
+              <h3 class="experience__job">GameShop General Manager</h3>
+              <p class="experience__description">At GameShop Video Games, I was responsible for managing commercial relationships and importing 80% of the products sold in both the physical and virtual stores from China. 
+                I was also in charge of enhancing the brand's national positioning through the design of marketing strategies focused on leveraging new trends and managing social media.</p>
+            </div>
+          </div>
+
+          <div class="experience">
+            <img src="assets/images/logo2.png" alt="logo" class="experience__image">
+            <div class="experience__info">
+              <p class="experience__time">
+                Jan 2022 - Current
+              </p>
+              <h3 class="experience__job">Redlogistica y gestion S.A.S</h3>
+              <p class="experience__description">I am currently the Director of Logistics Production and Project Coordinator at a logistics management and event development company operating nationwide.</p>
+            </div>
+          </div>
+        </article>
+        
+      </section>
+      <section class="column column--right">
+        <article class="card">
+          <h2 class="card__title">Front End</h2>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">HTML</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">CSS</p>
+              <div class="skills__bar skills__bar--40"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">JavaScript</p>
+              <div class="skills__bar skills__bar--20"></div>
+            </div>  
+          </div>
+        </article>
+
+        <article class="card">
+          <h2 class="card__title">Soft skills</h2>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">Leadership</p>
+              <div class="skills__bar skills__bar--70"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Strategic Vision</p>
+              <div class="skills__bar skills__bar--80"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Adaptability</p>
+              <div class="skills__bar skills__bar--70"></div>
+            </div>  
+          </div>
+        </article>
+
+        <article class="card">
+          <h2 class="card__title">Languages</h2>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">English</p>
+              <div class="skills__bar skills__bar--70"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Portuguese</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Spanish</p>
+              <div class="skills__bar skills__bar--90"></div>
+            </div>  
+          </div>
+        </article>
+        <article class="card card--project">
+         <div class="card__image-container">
+          <img src="assets/images/project1.jpg" alt="Landing page" class="card__image">
+         </div> 
+         <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#HTML</span>
+            <span class="project__tag">#CSS</span>
+            <span class="project__tag">#JavaScript</span>
+            <span class="project__tag">#Responsive</span>
+          </div>
+          <h2 class="card__title">Portfolio</h2>
+          <p class="card__text">In this project, I designed my first modular portfolio as a deliverable for Module 2 in my programming education program with ENJOY. 
+          For this project, I used tools such as Visual Studio Code and GitHub. It was developed using HTML, CSS, and JavaScript.</p>
+          <p class="card__text">In the portfolio, you will find a summary of who I am and my professional profile, my work experience, and my skill levels and knowledge. 
+            The portfolio also allows for a change in primary colors, switching between dark mode and light mode.</p>
+            <div class="buttons">
+              <a href="#" class="button button--primary">Demo</a>
+              <a href="#" class="button button--ghost">Code</a>  
+            </div>
+        </article>
+
+        <article class="card card--project">
+          <div class="card__image-container">
+           <img src="assets/images/project2.jpg" alt="Landing page" class="card__image">
+          </div> 
+          <div class="project">
+           <div class="project__tags">
+             <span class="project__tag">#noob</span>
+             <span class="project__tag">#future</span>
+             <span class="project__tag">#project</span>
+             <span class="project__tag">#here</span>
+           </div>
+           <h2 class="card__title">Nothing yet</h2>
+           <p class="card__text">This space will be for a future project...</p>
+           <p class="card__text">More space here....</p>
+             <div class="buttons">
+               <a href="#" class="button button--primary">Keep</a>
+               <a href="#" class="button button--ghost">Trying</a>  
+             </div>
+         </article>
+
+         <article class="card card--project">
+          <div class="card__image-container">
+           <img src="assets/images/project3.jpg" alt="Landing page" class="card__image">
+          </div> 
+          <div class="project">
+           <div class="project__tags">
+             <span class="project__tag">#Module3</span>
+             <span class="project__tag">#here</span>
+             <span class="project__tag">#i</span>
+             <span class="project__tag">#come</span>
+           </div>
+           <h2 class="card__title">Future project</h2>
+           <p class="card__text">This space will be for a future project...</p>
+           <p class="card__text">More space here...</p>
+             <div class="buttons">
+               <a href="#" class="button button--primary">Soon</a>
+               <a href="#" class="button button--ghost">Code</a>  
+             </div>
+         </article>
+
+      </section>
+    </main>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
